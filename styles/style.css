@@ -70,9 +70,8 @@ body{
 }
 /* banner end  */
 /* development start  */
-#development{
+.development{
     width: 946px;
-    height: 1235px;
     margin: 100px auto;
     border-radius: 16px;
     padding: 80px 97px 80px 97px;
@@ -91,6 +90,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    margin: 24px auto;
     text-align: center;
 }
 .dev_box{
@@ -171,7 +171,7 @@ body{
 #target{
     width: 1140px;
     height: 463px;
-    margin: 0 auto;
+    margin: 140px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -228,7 +228,7 @@ body{
 .support{
     width: 1140px;
     height: 314px;
-    margin: 46px auto;
+    margin: 0 auto;
     padding: 64px 48px 64px 48px;
     border-radius: 16px;
     background-image: url(../assets/handshake.jpg);
@@ -241,6 +241,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 .support-content{
     width: 1044px;
