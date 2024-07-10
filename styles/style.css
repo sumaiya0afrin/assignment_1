@@ -7,6 +7,38 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+/* header start  */
+header{
+    height: 120px;
+    background-color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav_title{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+}
+.nav_btn{
+    width: 228px;
+    height: 58px;
+    margin: 32px 0px;
+    background-color: #fff;
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    cursor: pointer;
+}
+/* header end  */
+
 /* banner start  */
 #banner{
     height: 684.6px;
@@ -83,6 +115,7 @@ body{
     line-height: 37px;
     letter-spacing: 0%;
     text-align: center;
+    text-transform: capitalize;
 }
 .sub-title{
     width: 852px;
@@ -124,7 +157,6 @@ body{
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
     margin: 32px 0px;
-    opacity: 0.7;
     transition: 0.8s;
 }
 .dev_left_content button:hover{
