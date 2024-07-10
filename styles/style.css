@@ -146,6 +146,7 @@ body{
     text-align: end;
 }
 /* development end */
+
 /* inspiration start  */
 .inspiration{
     margin: 0 auto;
@@ -182,11 +183,9 @@ body{
     margin-top: 34px;
     display: flex;
     justify-content: space-between;
-    font-family: Azeret Mono;
 }
 .card{
     width: 364px;
-    /* height: 300px; */
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -263,9 +262,7 @@ body{
     margin: 16px 0px;
 }
 form{
-    /* width: 684px; */
-    margin: 24px 0px;
-    
+    margin: 24px 0px; 
 }
 input{
     width: 548px;
