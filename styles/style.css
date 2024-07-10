@@ -48,6 +48,10 @@ body{
     padding: 21px 24px 21px 24px;
     margin: 32px 0px;
     cursor: pointer;
+    transition: 0.8s;
+}
+.btn:hover{
+    background-color: rgba(13, 19, 33, 0.7);
 }
 .btn a{
     text-decoration: none;
@@ -120,6 +124,12 @@ body{
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
     margin: 32px 0px;
+    opacity: 0.7;
+    transition: 0.8s;
+}
+.dev_left_content button:hover{
+    background-color: rgba(13, 19, 33, 0.7);
+    border-radius: 15px;
 }
 .dev_left_content a{
     text-decoration: none;
@@ -127,6 +137,9 @@ body{
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
+}
+.dev_left_content a:hover{
+    color: white;
 }
 .dev_right_content{
     width: 50%;
